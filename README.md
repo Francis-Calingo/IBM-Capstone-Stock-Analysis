@@ -4,14 +4,13 @@
 * [Introduction](#introduction)
 * [Code and Resources Used](#code-and-resources-used)
 * [Methodology](#methodology)
-  * [Methodology](#methodology)
-  * [Methodology](#methodology)
-  * [Methodology](#methodology)
-  * [Methodology](#methodology)
-  * [Methodology](#methodology)
-  * [Methodology](#methodology)
-  * [Methodology](#methodology)
-* [Discussion](#feature-engineering)
+  * [Step 1: Defining Graph Function](#step-1-defining-graph-function)
+  * [Step 2: Use yfinance to Extract Tesla Stock Data](#step-2-use-yfinance-to-extract-tesla-stock-data)
+  * [Step 3: Webscraping to Extract Tesla Revenue Data](#step-3-webscraping-to-extract-tesla-revenue-data)
+  * [Step 4: Use yfinance to Extract GameStop Stock Data](#step-4-use-yfinance-to-extract-gamestop-stock-data)
+  * [Step 5: Webscraping to Extract GameStop Revenue Data](#step-5-webscraping-to-extract-gamestop-revenue-data)
+  * [Step 6: Plotting Tesla and GameStop Stock Graphs](#step-6-plotting-tesla-and-gamestop-stock-graphs)
+* [Discussion](#discussion)
 
 ## Introduction
   <ul>
