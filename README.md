@@ -1,4 +1,4 @@
-# CapstoneProject-StockAnalysis
+# IBM Data Science Professional Certificate Capstone Project: Stock Price and Revenue Analysis
 
 ## Table of Contents
 * [Introduction](#introduction)
