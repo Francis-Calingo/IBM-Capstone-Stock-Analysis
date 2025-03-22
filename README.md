@@ -12,20 +12,23 @@
   * [Step 6: Plotting Tesla and GameStop Stock Graphs](#step-6-plotting-tesla-and-gamestop-stock-graphs)
 * [Discussion](#discussion)
 
-## Introduction
+<details><summary><h2>Introduction</h2></summary> 
   <ul>
     <li>Extracted, analyzed, and visualized Tesla and GameStop stock data using yfinance, BeautifulSoup, and plotly.</li>
     <li>Part of IBM's Data Science Professional Certificate Program.</li>
   </ul>
-  
-## Code and Resources Used
+
+<details><summary><h2>Code and Resources Used</h2></summary> 
   <ul>
     <li><b>IDEs Used:</b> Google Colab, Jupyter Notebook</li>
     <li><b>Python Version:</b> 3.10.12</li>
     <li><b>Libraries and Packages:</b> yfinance, pandas, requests, BeautifulSoup, plotly.graph_objects, make_subplots</li>
   </ul>
 
-## Methodology
+</details>
+
+
+<details><summary><h2>Methodology</h2></summary> 
 
 ### Step 1: Defining Graph Function
 Define a function where the inputs will draw upon the stock data that is to be taken from the stock data from the yfinance library later. Below is the code snippet:
@@ -77,12 +80,17 @@ GameStop stock and revenue data:
 
 ![image](https://github.com/user-attachments/assets/09381ab0-0502-426a-9330-4857f6f77c94)
 
-## Discussion
+</details>
+
+
+<details><summary><h2>Discussion</h2></summary> 
 It appears that Tesla's stock exploded around the 2020s, which is to be expected as the popularity of electric vehicles continue to increase from the increased production and shift in government policies to encourage EV production as part of their efforts to mitigate climate change:
 ![image](https://github.com/user-attachments/assets/c11ed9a6-b73f-4c75-97b2-d18466dd6dbb)
 
 In similar fashion, revenue has increased over time:
 ![image](https://github.com/user-attachments/assets/6a0a9249-c943-48a9-b5f6-3d21d18b2a96)
+</details>
+
 
 GameStop's plots present an interesting story. We can observe a drastic spike on GameStop's stocks, which we would expect, given that on January 2021, users of r/wallstreetbets, a Reddit subreddit, initiated a short squeeze (rapid increase of the price of an undervalued stock due to sellers buying the stock in excess) on GameStop by driving up the price of the stock, resulting in a massive spike in its stock value over the next few days:
 ![image](https://github.com/user-attachments/assets/c4f5f7be-6d17-4302-b115-d49f6519b49b)
