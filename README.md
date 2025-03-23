@@ -18,6 +18,8 @@
     <li>Part of IBM's Data Science Professional Certificate Program.</li>
   </ul>
 
+</details>
+
 <details><summary><h2>Code and Resources Used</h2></summary> 
   <ul>
     <li><b>IDEs Used:</b> Google Colab, Jupyter Notebook</li>
