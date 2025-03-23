@@ -100,8 +100,6 @@ GameStop's plots present an interesting story. We can observe a drastic spike on
 There is unfortunately no readily available data from yfinance on GameStop's revenue during that same time period:
 ![image](https://github.com/user-attachments/assets/f8faed49-5ffb-41d1-ac55-fb2446736169)
 
-</details>
-
 These are just two of countless examples of external events (anticipated or not) having significant effects on stock prices and revenues. Consumer behavioural trends and government policies could help people predict stock performance, although as events such as the COVID-19 outbreak and the GameStop Short Squeeze demonstrate that unexpected events could be just as, if not more, impactful on stocks.
 
 </details>
