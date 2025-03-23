@@ -92,7 +92,6 @@ It appears that Tesla's stock exploded around the 2020s, which is to be expected
 
 In similar fashion, revenue has increased over time:
 ![image](https://github.com/user-attachments/assets/6a0a9249-c943-48a9-b5f6-3d21d18b2a96)
-</details>
 
 
 GameStop's plots present an interesting story. We can observe a drastic spike on GameStop's stocks, which we would expect, given that on January 2021, users of r/wallstreetbets, a Reddit subreddit, initiated a short squeeze (rapid increase of the price of an undervalued stock due to sellers buying the stock in excess) on GameStop by driving up the price of the stock, resulting in a massive spike in its stock value over the next few days:
@@ -100,6 +99,8 @@ GameStop's plots present an interesting story. We can observe a drastic spike on
 
 There is unfortunately no readily available data from yfinance on GameStop's revenue during that same time period:
 ![image](https://github.com/user-attachments/assets/f8faed49-5ffb-41d1-ac55-fb2446736169)
+
+</details>
 
 These are just two of countless examples of external events (anticipated or not) having significant effects on stock prices and revenues. Consumer behavioural trends and government policies could help people predict stock performance, although as events such as the COVID-19 outbreak and the GameStop Short Squeeze demonstrate that unexpected events could be just as, if not more, impactful on stocks.
 
