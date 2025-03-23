@@ -87,6 +87,7 @@ GameStop stock and revenue data:
 
 <details><summary><h2>Discussion</h2></summary> 
 It appears that Tesla's stock exploded around the 2020s, which is to be expected as the popularity of electric vehicles continue to increase from the increased production and shift in government policies to encourage EV production as part of their efforts to mitigate climate change:
+ 
 ![image](https://github.com/user-attachments/assets/c11ed9a6-b73f-4c75-97b2-d18466dd6dbb)
 
 In similar fashion, revenue has increased over time:
@@ -101,4 +102,6 @@ There is unfortunately no readily available data from yfinance on GameStop's rev
 ![image](https://github.com/user-attachments/assets/f8faed49-5ffb-41d1-ac55-fb2446736169)
 
 These are just two of countless examples of external events (anticipated or not) having significant effects on stock prices and revenues. Consumer behavioural trends and government policies could help people predict stock performance, although as events such as the COVID-19 outbreak and the GameStop Short Squeeze demonstrate that unexpected events could be just as, if not more, impactful on stocks.
+
+</details>
 
