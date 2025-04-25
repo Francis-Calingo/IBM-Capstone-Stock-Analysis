@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [Introduction](#introduction)
-* [Code and Resources Used](#code-and-resources-used)
+* [Code and Setup](#code-and-setup)
 * [Methodology](#methodology)
   * [Step 1: Defining Graph Function](#step-1-defining-graph-function)
   * [Step 2: Use yfinance to Extract Tesla Stock Data](#step-2-use-yfinance-to-extract-tesla-stock-data)
@@ -20,12 +20,19 @@
 
 </details>
 
-<details><summary><h2>Code and Resources Used</h2></summary> 
+<details><summary><h2>Code and Setup</h2></summary> 
   <ul>
     <li><b>IDEs Used:</b> Google Colab, Jupyter Notebook</li>
     <li><b>Python Version:</b> 3.10.12</li>
     <li><b>Libraries and Packages:</b> yfinance, pandas, requests, BeautifulSoup, plotly.graph_objects, make_subplots</li>
   </ul>
+
+If you'd like to fork or run this locally:
+
+```bash
+git clone https://github.com/Francis-Calingo/IBM-Capstone-Stock-Analysis.git
+cd IBM-Capstone-Stock-Analysis
+```
 
 </details>
 
