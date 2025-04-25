@@ -18,6 +18,7 @@
     <li>Part of IBM's Data Science Professional Certificate Program.</li>
   </ul>
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
 </details>
 
 <details><summary><h2>Code and Setup</h2></summary> 
@@ -33,7 +34,12 @@ If you'd like to fork or run this locally:
 git clone https://github.com/Francis-Calingo/IBM-Capstone-Stock-Analysis.git
 cd IBM-Capstone-Stock-Analysis
 ```
+To install the necessary Python libraries and packages:
+```bash
+pip install -r requirements.txt
+```
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
 </details>
 
 
@@ -89,6 +95,7 @@ GameStop stock and revenue data:
 
 ![image](https://github.com/user-attachments/assets/09381ab0-0502-426a-9330-4857f6f77c94)
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
 </details>
 
 
@@ -109,5 +116,6 @@ There is unfortunately no readily available data from yfinance on GameStop's rev
 
 These are just two of countless examples of external events (anticipated or not) having significant effects on stock prices and revenues. Consumer behavioural trends and government policies could help people predict stock performance, although as events such as the COVID-19 outbreak and the GameStop Short Squeeze demonstrate that unexpected events could be just as, if not more, impactful on stocks.
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
 </details>
 
