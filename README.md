@@ -12,16 +12,19 @@
   * [Step 6: Plotting Tesla and GameStop Stock Graphs](#step-6-plotting-tesla-and-gamestop-stock-graphs)
 * [Discussion](#discussion)
 
-<details><summary><h2>Introduction</h2></summary> 
+---
+
+## Introduction
   <ul>
     <li>Extracted, analyzed, and visualized Tesla and GameStop stock data using yfinance, BeautifulSoup, and plotly.</li>
     <li>Part of IBM's Data Science Professional Certificate Program.</li>
   </ul>
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
-</details>
 
-<details><summary><h2>Code and Setup</h2></summary> 
+---
+
+## Code and Setup
   <ul>
     <li><b>IDEs Used:</b> Google Colab, Jupyter Notebook</li>
     <li><b>Python Version:</b> 3.10.12</li>
@@ -40,10 +43,10 @@ pip install -r requirements.txt
 ```
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
-</details>
 
+---
 
-<details><summary><h2>Methodology</h2></summary> 
+## Methodology
 
 ### Step 1: Defining Graph Function
 Define a function where the inputs will draw upon the stock data that is to be taken from the stock data from the yfinance library later. Below is the code snippet:
@@ -98,8 +101,9 @@ GameStop stock and revenue data:
 [<b>Back to Table of Contents</b>](#table-of-contents)
 </details>
 
+---
 
-<details><summary><h2>Discussion</h2></summary> 
+## Discussion
 It appears that Tesla's stock exploded around the 2020s, which is to be expected as the popularity of electric vehicles continue to increase from the increased production and shift in government policies to encourage EV production as part of their efforts to mitigate climate change:
  
 ![image](https://github.com/user-attachments/assets/c11ed9a6-b73f-4c75-97b2-d18466dd6dbb)
@@ -117,5 +121,4 @@ There is unfortunately no readily available data from yfinance on GameStop's rev
 These are just two of countless examples of external events (anticipated or not) having significant effects on stock prices and revenues. Consumer behavioural trends and government policies could help people predict stock performance, although as events such as the COVID-19 outbreak and the GameStop Short Squeeze demonstrate that unexpected events could be just as, if not more, impactful on stocks.
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
-</details>
 
