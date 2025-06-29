@@ -92,8 +92,25 @@ Use the following method:
   <li>2: Use the library 'beautiful_soup' to parse the html data using a parser.</li>
   <li>3: Using either BeautifulSoup or read_html to extract the Tesla Revenue table, then store it in a dataframe. Example code snippet:</li>
 </ul>
-![image](https://github.com/user-attachments/assets/9880b015-4359-4f94-96aa-b93716cd2d33)
 
+```jupyter
+tables=soup.find_all("table")
+for index,table in enumerate(tables):
+    if("GameStop Quarterly Revenue" in str(table)):
+        table_index=index
+gme_revenue=pd.DataFrame(columns=["Date","Revenue"])
+rows = []
+for row in tables[table_index].tbody.find_all("tr"):
+    col = row.find_all("td")
+    if len(col) != 2:
+        continue
+    Date = col[0].text
+    Revenue = col[1].text.replace("$", "").replace(",", "")
+    rows.append({"Date": Date, "Revenue": Revenue})
+    
+gme_revenue = pd.concat([gme_revenue, pd.DataFrame(rows)])   
+print(gme_revenue)
+```
 
 The result:
 ![image](https://github.com/user-attachments/assets/6f3a6ba1-5c8f-4031-b1e7-3ea567b8ec24)
